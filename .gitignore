@@ -1,0 +1,33 @@
+# Claude Code – local/runtime files (keep .claude/settings.json shared)
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
+
+# Dependencies and package-manager debris (planned CSS package / docs site)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
